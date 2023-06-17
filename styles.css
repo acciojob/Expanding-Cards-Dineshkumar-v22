@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+.container{
+	display:flex;
+	gap:5px;
+}
+.panel{
+	position:relative;
+/* 	font-size:0; */
+}
+#panel-1>img{
+	width:360px;
+}
+img{
+	width:35px;
+	height:220px;
+	border-radius:15px;
+}
+img:hover{
+	width:350px;
+	visibility:visible;
+}
+.img-text{
+	color:white;
+	position:absolute;
+	bottom:10px;
+	left:10px;
+}
+
